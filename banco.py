@@ -50,6 +50,19 @@ CREATE TABLE IF NOT EXISTS contas_a_receber (
 )
 ''')
 
+# 5. TABELA DE ENTREGAS
+cursor.execute('''
+CREATE TABLE IF NOT EXISTS entregas (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    venda_id INTEGER,
+    endereco TEXT NOT NULL,
+    entregador TEXT,
+    status TEXT DEFAULT 'Pendente', -- 'Pendente', 'Em trânsito', 'Entregue'
+    data_saida DATETIME,
+    FOREIGN KEY (venda_id) REFERENCES vendas(id)
+)
+''')
+
 conn.commit()
 conn.close()
 print("Banco de Dados e tabelas criados com sucesso!")
