@@ -118,8 +118,7 @@ elif menu == "Vendas":
             ["Dinheiro", "PIX", "Cartão de Crédito", "Cartão de Débito", "Cheque"]
         )
 
-        if st.button("✅ FINALIZAR VENDA"):
-            from vendas import finalizar_venda_multi_itens
+        if st.button("✅ FINALIZAR VENDA", key="btn_finalizar_venda_principal"):
             
             # Passamos agora a forma de pagamento para a função
             sucesso, mensagem = finalizar_venda_multi_itens(
@@ -164,3 +163,23 @@ elif menu == "Logística":
     st.header("🚚 Entregas Pendentes")
     entregas = carregar_dados("SELECT * FROM entregas")
     st.write(entregas)
+
+elif menu == "Financeiro":
+    st.header("📊 Resumo do Caixa")
+    
+    # Query que soma por forma de pagamento
+    resumo_pagamentos = carregar_dados("""
+        SELECT forma_pagamento, SUM(valor_parcela) as total 
+        FROM contas_a_receber 
+        GROUP BY forma_pagamento
+    """)
+    
+    # Exibe em colunas bonitas
+    if not resumo_pagamentos.empty:
+        cols = st.columns(len(resumo_pagamentos))
+        for i, row in resumo_pagamentos.iterrows():
+            cols[i].metric(row['forma_pagamento'], f"R$ {row['total']:,.2f}")
+    
+    st.divider()
+    st.subheader("Lista Detalhada")
+    st.dataframe(carregar_dados("SELECT * FROM contas_a_receber"), use_container_width=True)
