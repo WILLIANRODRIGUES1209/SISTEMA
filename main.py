@@ -66,3 +66,15 @@ def menu():
 
 if __name__ == "__main__":
     menu()
+
+from auth import fazer_login
+
+# ... (mantenha suas outras funções e o def menu() aqui)
+
+if __name__ == "__main__":
+    # O sistema só entra no menu se o login retornar True
+    if fazer_login():
+        input("Pressione Enter para acessar o painel...")
+        menu()
+    else:
+        print("Sistema encerrado por falta de permissão.")

@@ -63,6 +63,18 @@ CREATE TABLE IF NOT EXISTS entregas (
 )
 ''')
 
+# 6. TABELA DE USUÁRIOS
+cursor.execute('''
+CREATE TABLE IF NOT EXISTS usuarios (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    usuario TEXT UNIQUE NOT NULL,
+    senha TEXT NOT NULL
+)
+''')
+
+# Criar um usuário padrão se não existir (Login: admin / Senha: 123)
+cursor.execute('INSERT OR IGNORE INTO usuarios (usuario, senha) VALUES ("admin", "123")')
+
 conn.commit()
 conn.close()
 print("Banco de Dados e tabelas criados com sucesso!")
