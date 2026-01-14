@@ -72,6 +72,17 @@ CREATE TABLE IF NOT EXISTS usuarios (
 )
 ''')
 
+import sqlite3
+conn = sqlite3.connect('sistema_gestao.db')
+cursor = conn.cursor()
+try:
+    cursor.execute("ALTER TABLE contas_a_receber ADD COLUMN forma_pagamento TEXT")
+    conn.commit()
+    print("Coluna de pagamento adicionada!")
+except:
+    print("A coluna já existe.")
+conn.close()
+
 # Criar um usuário padrão se não existir (Login: admin / Senha: 123)
 cursor.execute('INSERT OR IGNORE INTO usuarios (usuario, senha) VALUES ("admin", "123")')
 

@@ -105,11 +105,30 @@ elif menu == "Vendas":
         else:
             total_liquido = valor_bruto - valor_desconto
 
-        # --- TOTAIS ---
+        # --- TOTAIS E PAGAMENTO ---
         c1, c2, c3 = st.columns(3)
         c1.metric("Total Bruto", f"R$ {valor_bruto:,.2f}")
         c2.metric("Desconto", f"- R$ {valor_bruto - total_liquido:,.2f}")
-        c3.metric("Total Líquido", f"R$ {total_liquido:,.2f}", delta_color="normal")
+        c3.metric("Total Líquido", f"R$ {total_liquido:,.2f}")
+
+        st.divider()
+        # Seleção da forma de pagamento
+        forma_pgto = st.selectbox(
+            "Selecione a Forma de Pagamento",
+            ["Dinheiro", "PIX", "Cartão de Crédito", "Cartão de Débito", "Cheque"]
+        )
+
+        if st.button("✅ FINALIZAR VENDA"):
+            from vendas import finalizar_venda_multi_itens
+            
+            # Passamos agora a forma de pagamento para a função
+            sucesso, mensagem = finalizar_venda_multi_itens(
+                st.session_state.carrinho, 
+                total_liquido, 
+                (valor_bruto - total_liquido),
+                forma_pgto # Novo argumento
+            )
+            # ... resto do código de sucesso ...
 
         if st.button("✅ FINALIZAR VENDA"):
             # Aqui entraria a lógica de salvar no banco e baixar estoque
@@ -117,9 +136,24 @@ elif menu == "Vendas":
             st.success("Venda realizada com sucesso!")
             st.session_state.carrinho = [] # Limpa o carrinho
     
-    if st.button("🗑️ Limpar Carrinho"):
-        st.session_state.carrinho = []
-        st.rerun()
+    if st.button("✅ FINALIZAR VENDA"):
+            # Importa a função que acabamos de criar
+            from vendas import finalizar_venda_multi_itens
+            
+            sucesso, mensagem = finalizar_venda_multi_itens(
+                st.session_state.carrinho, 
+                total_liquido, 
+                (valor_bruto - total_liquido)
+            )
+            
+            if sucesso:
+                st.balloons()
+                st.success(mensagem)
+                # Limpa o carrinho após a venda
+                st.session_state.carrinho = []
+                st.rerun()
+            else:
+                st.error(mensagem)
 
 elif menu == "Financeiro":
     st.header("📊 Contas a Receber")
