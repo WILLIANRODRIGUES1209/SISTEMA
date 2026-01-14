@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import sqlite3
 import os
 
-def importar_xml_para_estoque():
+def importar_xml_para_estoque(caminho_arquivo):
     # Isso descobre em qual pasta este script está rodando agora
     diretorio_atual = os.path.dirname(os.path.abspath(__file__))
     caminho_xml = os.path.join(diretorio_atual, 'teste_nota.xml')
@@ -19,7 +19,7 @@ def importar_xml_para_estoque():
 
     # Processar o XML
     ns = {'nfe': 'http://www.portalfiscal.inf.br/nfe'}
-    tree = ET.parse(caminho_xml)
+    tree = ET.parse(caminho_arquivo)
     root = tree.getroot()
 
     conn = sqlite3.connect(caminho_db)

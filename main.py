@@ -57,7 +57,7 @@ def menu():
                 baixar_pagamento(int(sub_op))
             input("\nPresione Enter para voltar...")
         
-         elif opcao == '0':
+        elif opcao == '0':
             print("Saindo...")
             break
         else:
