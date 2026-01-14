@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopecas>
+  <peca>
+    <id>1</id>
+    <nome>Peça Automotiva 1</nome>
+    <categoria>Motor</categoria>
+    <marca>TRW</marca>
+    <preco>29.75</preco>
+    <estoque>11</estoque>
+  </peca>
+  <peca>
+    <id>2</id>
+    <nome>Peça Automotiva 2</nome>
+    <categoria>Suspensão</categoria>
+    <marca>Cofap</marca>
+    <preco>34.5</preco>
+    <estoque>12</estoque>
+  </peca>
+  <peca>
+    <id>3</id>
+    <nome>Peça Automotiva 3</nome>
+    <categoria>Elétrica</categoria>
+    <marca>Moura</marca>
+    <preco>39.25</preco>
+    <estoque>13</estoque>
+  </peca>
+  <peca>
+    <id>4</id>
+    <nome>Peça Automotiva 4</nome>
+    <categoria>Filtros</categoria>
+    <marca>Fram</marca>
+    <preco>44.0</preco>
+    <estoque>14</estoque>
+  </peca>
+  <peca>
+    <id>5</id>
+    <nome>Peça Automotiva 5</nome>
+    <categoria>Freios</categoria>
+    <marca>Gates</marca>
+    <preco>48.75</preco>
+    <estoque>15</estoque>
+  </peca>
+  <peca>
+    <id>6</id>
+    <nome>Peça Automotiva 6</nome>
+    <categoria>Motor</categoria>
+    <marca>Delphi</marca>
+    <preco>53.5</preco>
+    <estoque>16</estoque>
+  </peca>
+  <peca>
+    <id>7</id>
+    <nome>Peça Automotiva 7</nome>
+    <categoria>Suspensão</categoria>
+    <marca>NGK</marca>
+    <preco>58.25</preco>
+    <estoque>17</estoque>
+  </peca>
+  <peca>
+    <id>8</id>
+    <nome>Peça Automotiva 8</nome>
+    <categoria>Elétrica</categoria>
+    <marca>Bosch</marca>
+    <preco>63.0</preco>
+    <estoque>18</estoque>
+  </peca>
+  <peca>
+    <id>9</id>
+    <nome>Peça Automotiva 9</nome>
+    <categoria>Filtros</categoria>
+    <marca>TRW</marca>
+    <preco>67.75</preco>
+    <estoque>19</estoque>
+  </peca>
+  <peca>
+    <id>10</id>
+    <nome>Peça Automotiva 10</nome>
+    <categoria>Freios</categoria>
+    <marca>Cofap</marca>
+    <preco>72.5</preco>
+    <estoque>20</estoque>
+  </peca>
+  <peca>
+    <id>11</id>
+    <nome>Peça Automotiva 11</nome>
+    <categoria>Motor</categoria>
+    <marca>Moura</marca>
+    <preco>77.25</preco>
+    <estoque>21</estoque>
+  </peca>
+  <peca>
+    <id>12</id>
+    <nome>Peça Automotiva 12</nome>
+    <categoria>Suspensão</categoria>
+    <marca>Fram</marca>
+    <preco>82.0</preco>
+    <estoque>22</estoque>
+  </peca>
+  <peca>
+    <id>13</id>
+    <nome>Peça Automotiva 13</nome>
+    <categoria>Elétrica</categoria>
+    <marca>Gates</marca>
+    <preco>86.75</preco>
+    <estoque>23</estoque>
+  </peca>
+  <peca>
+    <id>14</id>
+    <nome>Peça Automotiva 14</nome>
+    <categoria>Filtros</categoria>
+    <marca>Delphi</marca>
+    <preco>91.5</preco>
+    <estoque>24</estoque>
+  </peca>
+  <peca>
+    <id>15</id>
+    <nome>Peça Automotiva 15</nome>
+    <categoria>Freios</categoria>
+    <marca>NGK</marca>
+    <preco>96.25</preco>
+    <estoque>25</estoque>
+  </peca>
+  <peca>
+    <id>16</id>
+    <nome>Peça Automotiva 16</nome>
+    <categoria>Motor</categoria>
+    <marca>Bosch</marca>
+    <preco>101.0</preco>
+    <estoque>26</estoque>
+  </peca>
+  <peca>
+    <id>17</id>
+    <nome>Peça Automotiva 17</nome>
+    <categoria>Suspensão</categoria>
+    <marca>TRW</marca>
+    <preco>105.75</preco>
+    <estoque>27</estoque>
+  </peca>
+  <peca>
+    <id>18</id>
+    <nome>Peça Automotiva 18</nome>
+    <categoria>Elétrica</categoria>
+    <marca>Cofap</marca>
+    <preco>110.5</preco>
+    <estoque>28</estoque>
+  </peca>
+  <peca>
+    <id>19</id>
+    <nome>Peça Automotiva 19</nome>
+    <categoria>Filtros</categoria>
+    <marca>Moura</marca>
+    <preco>115.25</preco>
+    <estoque>29</estoque>
+  </peca>
+  <peca>
+    <id>20</id>
+    <nome>Peça Automotiva 20</nome>
+    <categoria>Freios</categoria>
+    <marca>Fram</marca>
+    <preco>120.0</preco>
+    <estoque>30</estoque>
+  </peca>
+  <peca>
+    <id>21</id>
+    <nome>Peça Automotiva 21</nome>
+    <categoria>Motor</categoria>
+    <marca>Gates</marca>
+    <preco>124.75</preco>
+    <estoque>31</estoque>
+  </peca>
+  <peca>
+    <id>22</id>
+    <nome>Peça Automotiva 22</nome>
+    <categoria>Suspensão</categoria>
+    <marca>Delphi</marca>
+    <preco>129.5</preco>
+    <estoque>32</estoque>
+  </peca>
+  <peca>
+    <id>23</id>
+    <nome>Peça Automotiva 23</nome>
+    <categoria>Elétrica</categoria>
+    <marca>NGK</marca>
+    <preco>134.25</preco>
+    <estoque>33</estoque>
+  </peca>
+  <peca>
+    <id>24</id>
+    <nome>Peça Automotiva 24</nome>
+    <categoria>Filtros</categoria>
+    <marca>Bosch</marca>
+    <preco>139.0</preco>
+    <estoque>34</estoque>
+  </peca>
+  <peca>
+    <id>25</id>
+    <nome>Peça Automotiva 25</nome>
+    <categoria>Freios</categoria>
+    <marca>TRW</marca>
+    <preco>143.75</preco>
+    <estoque>35</estoque>
+  </peca>
+  <peca>
+    <id>26</id>
+    <nome>Peça Automotiva 26</nome>
+    <categoria>Motor</categoria>
+    <marca>Cofap</marca>
+    <preco>148.5</preco>
+    <estoque>36</estoque>
+  </peca>
+  <peca>
+    <id>27</id>
+    <nome>Peça Automotiva 27</nome>
+    <categoria>Suspensão</categoria>
+    <marca>Moura</marca>
+    <preco>153.25</preco>
+    <estoque>37</estoque>
+  </peca>
+  <peca>
+    <id>28</id>
+    <nome>Peça Automotiva 28</nome>
+    <categoria>Elétrica</categoria>
+    <marca>Fram</marca>
+    <preco>158.0</preco>
+    <estoque>38</estoque>
+  </peca>
+  <peca>
+    <id>29</id>
+    <nome>Peça Automotiva 29</nome>
+    <categoria>Filtros</categoria>
+    <marca>Gates</marca>
+    <preco>162.75</preco>
+    <estoque>39</estoque>
+  </peca>
+  <peca>
+    <id>30</id>
+    <nome>Peça Automotiva 30</nome>
+    <categoria>Freios</categoria>
+    <marca>Delphi</marca>
+    <preco>167.5</preco>
+    <estoque>40</estoque>
+  </peca>
+  <peca>
+    <id>31</id>
+    <nome>Peça Automotiva 31</nome>
+    <categoria>Motor</categoria>
+    <marca>NGK</marca>
+    <preco>172.25</preco>
+    <estoque>41</estoque>
+  </peca>
+  <peca>
+    <id>32</id>
+    <nome>Peça Automotiva 32</nome>
+    <categoria>Suspensão</categoria>
+    <marca>Bosch</marca>
+    <preco>177.0</preco>
+    <estoque>42</estoque>
+  </peca>
+  <peca>
+    <id>33</id>
+    <nome>Peça Automotiva 33</nome>
+    <categoria>Elétrica</categoria>
+    <marca>TRW</marca>
+    <preco>181.75</preco>
+    <estoque>43</estoque>
+  </peca>
+  <peca>
+    <id>34</id>
+    <nome>Peça Automotiva 34</nome>
+    <categoria>Filtros</categoria>
+    <marca>Cofap</marca>
+    <preco>186.5</preco>
+    <estoque>44</estoque>
+  </peca>
+  <peca>
+    <id>35</id>
+    <nome>Peça Automotiva 35</nome>
+    <categoria>Freios</categoria>
+    <marca>Moura</marca>
+    <preco>191.25</preco>
+    <estoque>45</estoque>
+  </peca>
+  <peca>
+    <id>36</id>
+    <nome>Peça Automotiva 36</nome>
+    <categoria>Motor</categoria>
+    <marca>Fram</marca>
+    <preco>196.0</preco>
+    <estoque>46</estoque>
+  </peca>
+  <peca>
+    <id>37</id>
+    <nome>Peça Automotiva 37</nome>
+    <categoria>Suspensão</categoria>
+    <marca>Gates</marca>
+    <preco>200.75</preco>
+    <estoque>47</estoque>
+  </peca>
+  <peca>
+    <id>38</id>
+    <nome>Peça Automotiva 38</nome>
+    <categoria>Elétrica</categoria>
+    <marca>Delphi</marca>
+    <preco>205.5</preco>
+    <estoque>48</estoque>
+  </peca>
+  <peca>
+    <id>39</id>
+    <nome>Peça Automotiva 39</nome>
+    <categoria>Filtros</categoria>
+    <marca>NGK</marca>
+    <preco>210.25</preco>
+    <estoque>49</estoque>
+  </peca>
+  <peca>
+    <id>40</id>
+    <nome>Peça Automotiva 40</nome>
+    <categoria>Freios</categoria>
+    <marca>Bosch</marca>
+    <preco>215.0</preco>
+    <estoque>50</estoque>
+  </peca>
+  <peca>
+    <id>41</id>
+    <nome>Peça Automotiva 41</nome>
+    <categoria>Motor</categoria>
+    <marca>TRW</marca>
+    <preco>219.75</preco>
+    <estoque>51</estoque>
+  </peca>
+  <peca>
+    <id>42</id>
+    <nome>Peça Automotiva 42</nome>
+    <categoria>Suspensão</categoria>
+    <marca>Cofap</marca>
+    <preco>224.5</preco>
+    <estoque>52</estoque>
+  </peca>
+  <peca>
+    <id>43</id>
+    <nome>Peça Automotiva 43</nome>
+    <categoria>Elétrica</categoria>
+    <marca>Moura</marca>
+    <preco>229.25</preco>
+    <estoque>53</estoque>
+  </peca>
+  <peca>
+    <id>44</id>
+    <nome>Peça Automotiva 44</nome>
+    <categoria>Filtros</categoria>
+    <marca>Fram</marca>
+    <preco>234.0</preco>
+    <estoque>54</estoque>
+  </peca>
+  <peca>
+    <id>45</id>
+    <nome>Peça Automotiva 45</nome>
+    <categoria>Freios</categoria>
+    <marca>Gates</marca>
+    <preco>238.75</preco>
+    <estoque>55</estoque>
+  </peca>
+  <peca>
+    <id>46</id>
+    <nome>Peça Automotiva 46</nome>
+    <categoria>Motor</categoria>
+    <marca>Delphi</marca>
+    <preco>243.5</preco>
+    <estoque>56</estoque>
+  </peca>
+  <peca>
+    <id>47</id>
+    <nome>Peça Automotiva 47</nome>
+    <categoria>Suspensão</categoria>
+    <marca>NGK</marca>
+    <preco>248.25</preco>
+    <estoque>57</estoque>
+  </peca>
+  <peca>
+    <id>48</id>
+    <nome>Peça Automotiva 48</nome>
+    <categoria>Elétrica</categoria>
+    <marca>Bosch</marca>
+    <preco>253.0</preco>
+    <estoque>58</estoque>
+  </peca>
+  <peca>
+    <id>49</id>
+    <nome>Peça Automotiva 49</nome>
+    <categoria>Filtros</categoria>
+    <marca>TRW</marca>
+    <preco>257.75</preco>
+    <estoque>59</estoque>
+  </peca>
+  <peca>
+    <id>50</id>
+    <nome>Peça Automotiva 50</nome>
+    <categoria>Freios</categoria>
+    <marca>Cofap</marca>
+    <preco>262.5</preco>
+    <estoque>60</estoque>
+  </peca>
+  <peca>
+    <id>51</id>
+    <nome>Peça Automotiva 51</nome>
+    <categoria>Motor</categoria>
+    <marca>Moura</marca>
+    <preco>267.25</preco>
+    <estoque>61</estoque>
+  </peca>
+  <peca>
+    <id>52</id>
+    <nome>Peça Automotiva 52</nome>
+    <categoria>Suspensão</categoria>
+    <marca>Fram</marca>
+    <preco>272.0</preco>
+    <estoque>62</estoque>
+  </peca>
+  <peca>
+    <id>53</id>
+    <nome>Peça Automotiva 53</nome>
+    <categoria>Elétrica</categoria>
+    <marca>Gates</marca>
+    <preco>276.75</preco>
+    <estoque>63</estoque>
+  </peca>
+  <peca>
+    <id>54</id>
+    <nome>Peça Automotiva 54</nome>
+    <categoria>Filtros</categoria>
+    <marca>Delphi</marca>
+    <preco>281.5</preco>
+    <estoque>64</estoque>
+  </peca>
+  <peca>
+    <id>55</id>
+    <nome>Peça Automotiva 55</nome>
+    <categoria>Freios</categoria>
+    <marca>NGK</marca>
+    <preco>286.25</preco>
+    <estoque>65</estoque>
+  </peca>
+  <peca>
+    <id>56</id>
+    <nome>Peça Automotiva 56</nome>
+    <categoria>Motor</categoria>
+    <marca>Bosch</marca>
+    <preco>291.0</preco>
+    <estoque>66</estoque>
+  </peca>
+  <peca>
+    <id>57</id>
+    <nome>Peça Automotiva 57</nome>
+    <categoria>Suspensão</categoria>
+    <marca>TRW</marca>
+    <preco>295.75</preco>
+    <estoque>67</estoque>
+  </peca>
+  <peca>
+    <id>58</id>
+    <nome>Peça Automotiva 58</nome>
+    <categoria>Elétrica</categoria>
+    <marca>Cofap</marca>
+    <preco>300.5</preco>
+    <estoque>68</estoque>
+  </peca>
+  <peca>
+    <id>59</id>
+    <nome>Peça Automotiva 59</nome>
+    <categoria>Filtros</categoria>
+    <marca>Moura</marca>
+    <preco>305.25</preco>
+    <estoque>69</estoque>
+  </peca>
+  <peca>
+    <id>60</id>
+    <nome>Peça Automotiva 60</nome>
+    <categoria>Freios</categoria>
+    <marca>Fram</marca>
+    <preco>310.0</preco>
+    <estoque>10</estoque>
+  </peca>
+  <peca>
+    <id>61</id>
+    <nome>Peça Automotiva 61</nome>
+    <categoria>Motor</categoria>
+    <marca>Gates</marca>
+    <preco>314.75</preco>
+    <estoque>11</estoque>
+  </peca>
+  <peca>
+    <id>62</id>
+    <nome>Peça Automotiva 62</nome>
+    <categoria>Suspensão</categoria>
+    <marca>Delphi</marca>
+    <preco>319.5</preco>
+    <estoque>12</estoque>
+  </peca>
+  <peca>
+    <id>63</id>
+    <nome>Peça Automotiva 63</nome>
+    <categoria>Elétrica</categoria>
+    <marca>NGK</marca>
+    <preco>324.25</preco>
+    <estoque>13</estoque>
+  </peca>
+  <peca>
+    <id>64</id>
+    <nome>Peça Automotiva 64</nome>
+    <categoria>Filtros</categoria>
+    <marca>Bosch</marca>
+    <preco>329.0</preco>
+    <estoque>14</estoque>
+  </peca>
+  <peca>
+    <id>65</id>
+    <nome>Peça Automotiva 65</nome>
+    <categoria>Freios</categoria>
+    <marca>TRW</marca>
+    <preco>333.75</preco>
+    <estoque>15</estoque>
+  </peca>
+  <peca>
+    <id>66</id>
+    <nome>Peça Automotiva 66</nome>
+    <categoria>Motor</categoria>
+    <marca>Cofap</marca>
+    <preco>338.5</preco>
+    <estoque>16</estoque>
+  </peca>
+  <peca>
+    <id>67</id>
+    <nome>Peça Automotiva 67</nome>
+    <categoria>Suspensão</categoria>
+    <marca>Moura</marca>
+    <preco>343.25</preco>
+    <estoque>17</estoque>
+  </peca>
+  <peca>
+    <id>68</id>
+    <nome>Peça Automotiva 68</nome>
+    <categoria>Elétrica</categoria>
+    <marca>Fram</marca>
+    <preco>348.0</preco>
+    <estoque>18</estoque>
+  </peca>
+  <peca>
+    <id>69</id>
+    <nome>Peça Automotiva 69</nome>
+    <categoria>Filtros</categoria>
+    <marca>Gates</marca>
+    <preco>352.75</preco>
+    <estoque>19</estoque>
+  </peca>
+  <peca>
+    <id>70</id>
+    <nome>Peça Automotiva 70</nome>
+    <categoria>Freios</categoria>
+    <marca>Delphi</marca>
+    <preco>357.5</preco>
+    <estoque>20</estoque>
+  </peca>
+  <peca>
+    <id>71</id>
+    <nome>Peça Automotiva 71</nome>
+    <categoria>Motor</categoria>
+    <marca>NGK</marca>
+    <preco>362.25</preco>
+    <estoque>21</estoque>
+  </peca>
+  <peca>
+    <id>72</id>
+    <nome>Peça Automotiva 72</nome>
+    <categoria>Suspensão</categoria>
+    <marca>Bosch</marca>
+    <preco>367.0</preco>
+    <estoque>22</estoque>
+  </peca>
+  <peca>
+    <id>73</id>
+    <nome>Peça Automotiva 73</nome>
+    <categoria>Elétrica</categoria>
+    <marca>TRW</marca>
+    <preco>371.75</preco>
+    <estoque>23</estoque>
+  </peca>
+  <peca>
+    <id>74</id>
+    <nome>Peça Automotiva 74</nome>
+    <categoria>Filtros</categoria>
+    <marca>Cofap</marca>
+    <preco>376.5</preco>
+    <estoque>24</estoque>
+  </peca>
+  <peca>
+    <id>75</id>
+    <nome>Peça Automotiva 75</nome>
+    <categoria>Freios</categoria>
+    <marca>Moura</marca>
+    <preco>381.25</preco>
+    <estoque>25</estoque>
+  </peca>
+  <peca>
+    <id>76</id>
+    <nome>Peça Automotiva 76</nome>
+    <categoria>Motor</categoria>
+    <marca>Fram</marca>
+    <preco>386.0</preco>
+    <estoque>26</estoque>
+  </peca>
+  <peca>
+    <id>77</id>
+    <nome>Peça Automotiva 77</nome>
+    <categoria>Suspensão</categoria>
+    <marca>Gates</marca>
+    <preco>390.75</preco>
+    <estoque>27</estoque>
+  </peca>
+  <peca>
+    <id>78</id>
+    <nome>Peça Automotiva 78</nome>
+    <categoria>Elétrica</categoria>
+    <marca>Delphi</marca>
+    <preco>395.5</preco>
+    <estoque>28</estoque>
+  </peca>
+  <peca>
+    <id>79</id>
+    <nome>Peça Automotiva 79</nome>
+    <categoria>Filtros</categoria>
+    <marca>NGK</marca>
+    <preco>400.25</preco>
+    <estoque>29</estoque>
+  </peca>
+  <peca>
+    <id>80</id>
+    <nome>Peça Automotiva 80</nome>
+    <categoria>Freios</categoria>
+    <marca>Bosch</marca>
+    <preco>405.0</preco>
+    <estoque>30</estoque>
+  </peca>
+  <peca>
+    <id>81</id>
+    <nome>Peça Automotiva 81</nome>
+    <categoria>Motor</categoria>
+    <marca>TRW</marca>
+    <preco>409.75</preco>
+    <estoque>31</estoque>
+  </peca>
+  <peca>
+    <id>82</id>
+    <nome>Peça Automotiva 82</nome>
+    <categoria>Suspensão</categoria>
+    <marca>Cofap</marca>
+    <preco>414.5</preco>
+    <estoque>32</estoque>
+  </peca>
+  <peca>
+    <id>83</id>
+    <nome>Peça Automotiva 83</nome>
+    <categoria>Elétrica</categoria>
+    <marca>Moura</marca>
+    <preco>419.25</preco>
+    <estoque>33</estoque>
+  </peca>
+  <peca>
+    <id>84</id>
+    <nome>Peça Automotiva 84</nome>
+    <categoria>Filtros</categoria>
+    <marca>Fram</marca>
+    <preco>424.0</preco>
+    <estoque>34</estoque>
+  </peca>
+  <peca>
+    <id>85</id>
+    <nome>Peça Automotiva 85</nome>
+    <categoria>Freios</categoria>
+    <marca>Gates</marca>
+    <preco>428.75</preco>
+    <estoque>35</estoque>
+  </peca>
+  <peca>
+    <id>86</id>
+    <nome>Peça Automotiva 86</nome>
+    <categoria>Motor</categoria>
+    <marca>Delphi</marca>
+    <preco>433.5</preco>
+    <estoque>36</estoque>
+  </peca>
+  <peca>
+    <id>87</id>
+    <nome>Peça Automotiva 87</nome>
+    <categoria>Suspensão</categoria>
+    <marca>NGK</marca>
+    <preco>438.25</preco>
+    <estoque>37</estoque>
+  </peca>
+  <peca>
+    <id>88</id>
+    <nome>Peça Automotiva 88</nome>
+    <categoria>Elétrica</categoria>
+    <marca>Bosch</marca>
+    <preco>443.0</preco>
+    <estoque>38</estoque>
+  </peca>
+  <peca>
+    <id>89</id>
+    <nome>Peça Automotiva 89</nome>
+    <categoria>Filtros</categoria>
+    <marca>TRW</marca>
+    <preco>447.75</preco>
+    <estoque>39</estoque>
+  </peca>
+  <peca>
+    <id>90</id>
+    <nome>Peça Automotiva 90</nome>
+    <categoria>Freios</categoria>
+    <marca>Cofap</marca>
+    <preco>452.5</preco>
+    <estoque>40</estoque>
+  </peca>
+  <peca>
+    <id>91</id>
+    <nome>Peça Automotiva 91</nome>
+    <categoria>Motor</categoria>
+    <marca>Moura</marca>
+    <preco>457.25</preco>
+    <estoque>41</estoque>
+  </peca>
+  <peca>
+    <id>92</id>
+    <nome>Peça Automotiva 92</nome>
+    <categoria>Suspensão</categoria>
+    <marca>Fram</marca>
+    <preco>462.0</preco>
+    <estoque>42</estoque>
+  </peca>
+  <peca>
+    <id>93</id>
+    <nome>Peça Automotiva 93</nome>
+    <categoria>Elétrica</categoria>
+    <marca>Gates</marca>
+    <preco>466.75</preco>
+    <estoque>43</estoque>
+  </peca>
+  <peca>
+    <id>94</id>
+    <nome>Peça Automotiva 94</nome>
+    <categoria>Filtros</categoria>
+    <marca>Delphi</marca>
+    <preco>471.5</preco>
+    <estoque>44</estoque>
+  </peca>
+  <peca>
+    <id>95</id>
+    <nome>Peça Automotiva 95</nome>
+    <categoria>Freios</categoria>
+    <marca>NGK</marca>
+    <preco>476.25</preco>
+    <estoque>45</estoque>
+  </peca>
+  <peca>
+    <id>96</id>
+    <nome>Peça Automotiva 96</nome>
+    <categoria>Motor</categoria>
+    <marca>Bosch</marca>
+    <preco>481.0</preco>
+    <estoque>46</estoque>
+  </peca>
+  <peca>
+    <id>97</id>
+    <nome>Peça Automotiva 97</nome>
+    <categoria>Suspensão</categoria>
+    <marca>TRW</marca>
+    <preco>485.75</preco>
+    <estoque>47</estoque>
+  </peca>
+  <peca>
+    <id>98</id>
+    <nome>Peça Automotiva 98</nome>
+    <categoria>Elétrica</categoria>
+    <marca>Cofap</marca>
+    <preco>490.5</preco>
+    <estoque>48</estoque>
+  </peca>
+  <peca>
+    <id>99</id>
+    <nome>Peça Automotiva 99</nome>
+    <categoria>Filtros</categoria>
+    <marca>Moura</marca>
+    <preco>495.25</preco>
+    <estoque>49</estoque>
+  </peca>
+  <peca>
+    <id>100</id>
+    <nome>Peça Automotiva 100</nome>
+    <categoria>Freios</categoria>
+    <marca>Fram</marca>
+    <preco>500.0</preco>
+    <estoque>50</estoque>
+  </peca>
+</autopecas>
